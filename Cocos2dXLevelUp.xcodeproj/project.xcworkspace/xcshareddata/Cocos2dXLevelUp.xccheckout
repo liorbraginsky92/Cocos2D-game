@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF751F12-8E32-479E-A597-3E88DAB7DE15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cocos2dXLevelUp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CAB0994FDE7AB136F1393B85BD645AA90A63AFA</key>
+		<string>github.com:soomla/cocos2dx-levelup.git</string>
+		<key>852ED3691A47A99B0D19C820A500AE9772B2A44E</key>
+		<string>https://github.com/cocos2d/cocos2d-x.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cocos2dXLevelUp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CAB0994FDE7AB136F1393B85BD645AA90A63AFA</key>
+		<string>../..</string>
+		<key>852ED3691A47A99B0D19C820A500AE9772B2A44E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:soomla/cocos2dx-levelup.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CAB0994FDE7AB136F1393B85BD645AA90A63AFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>852ED3691A47A99B0D19C820A500AE9772B2A44E</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CAB0994FDE7AB136F1393B85BD645AA90A63AFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cocos2dx-levelup</string>
+		</dict>
+	</array>
+</dict>
+</plist>

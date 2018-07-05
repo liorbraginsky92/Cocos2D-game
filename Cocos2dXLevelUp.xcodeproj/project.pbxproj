@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372B70D5C03EC8784B9139CC /* CCPurchasingMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7E35918D021E574D706E /* CCPurchasingMission.h */; };
+		372B712466992E0FBE6FD5C9 /* CCSocialUploadGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7DEF0DE8EC9ED94741DD /* CCSocialUploadGate.cpp */; };
+		372B717C48451A25468FCC27 /* CCSocialActionGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B75C19F268799FE848157 /* CCSocialActionGate.cpp */; };
+		372B72CB1538BBC530C36F4D /* CCSocialUploadMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7C7398F510F51B863A85 /* CCSocialUploadMission.cpp */; };
+		372B73BB45E64D2117B87161 /* CCSocialStatusGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7CDABB2F9E2E3DE46AB9 /* CCSocialStatusGate.h */; };
+		372B73F9C4BADABA2025B747 /* CCSocialStatusGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7BCF47EAE80EAFE23B68 /* CCSocialStatusGate.cpp */; };
+		372B74BF6730584276D1F199 /* CCBalanceGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7A3AB64ECFE8A6C10A6A /* CCBalanceGate.h */; };
+		372B765D661456DBBF0C3D9C /* CCPurchasableGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B739ED99386EAD778FD2B /* CCPurchasableGate.cpp */; };
+		372B76745739EBA656A47F88 /* CCPurchasingMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B70F1D32ED8414FDB3DBC /* CCPurchasingMission.cpp */; };
+		372B784873BC058BC0BEEEE5 /* CCSocialLikeGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7D4DDAFADEFFBE31D122 /* CCSocialLikeGate.cpp */; };
+		372B795965FA7CE65C26609B /* CCSocialActionGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B77436B7769D84F0B3CD2 /* CCSocialActionGate.h */; };
+		372B798115EC07991E418260 /* CCPurchasableGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B78CE4EB6D10694243467 /* CCPurchasableGate.h */; };
+		372B79CA0A73CBFC386A1900 /* CCSocialStatusMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B735CD0799F9C9DDBB200 /* CCSocialStatusMission.cpp */; };
+		372B7A676977FAB0FEB04C67 /* CCSocialLikeMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7E5FB6CC7C9CB97BE7D8 /* CCSocialLikeMission.cpp */; };
+		372B7AC96F79EE3C972140E2 /* CCSocialStoryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7CE180F0B7F484268DB4 /* CCSocialStoryGate.cpp */; };
+		372B7B0240BF95504E4A8793 /* CCSocialStoryMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7DFDFCD6E9CCED06247E /* CCSocialStoryMission.h */; };
+		372B7B60FE6AE74CC9E30DC6 /* CCSocialLikeGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B77C5ACF82D6350196476 /* CCSocialLikeGate.h */; };
+		372B7B831F14F6D0FDE57527 /* CCSocialStoryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B70238C9B3154597B563A /* CCSocialStoryGate.h */; };
+		372B7CDA8325979AC6584AF2 /* CCSocialUploadGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7AB02A5B36C1BB49BA93 /* CCSocialUploadGate.h */; };
+		372B7CEB0F17B97FA7BC37AC /* CCBalanceMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B7DA5106FE140EF770AC0 /* CCBalanceMission.cpp */; };
+		372B7D1F8201EA20ADB68ABE /* CCBalanceGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B743C5CD74E306018328E /* CCBalanceGate.cpp */; };
+		372B7D735E996F6C94B5D554 /* CCSocialUploadMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7E9C1FB91D77AC6EF93E /* CCSocialUploadMission.h */; };
+		372B7DF8DF8CA41349499064 /* CCSocialStoryMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 372B756F2509F990937EB20B /* CCSocialStoryMission.cpp */; };
+		372B7E7FF1EA7B51DF41CC35 /* CCSocialStatusMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B79BF7773B407F1F63FB2 /* CCSocialStatusMission.h */; };
+		372B7F216683817D30326994 /* CCSocialLikeMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B716224DEB6EB10FF0F48 /* CCSocialLikeMission.h */; };
+		372B7F348D696FC00042CADB /* CCBalanceMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B74821177B212D38AA3D0 /* CCBalanceMission.h */; };
+		9D08F81C1AF378FC00F5CAEA /* CCNativeGateStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F8121AF378FC00F5CAEA /* CCNativeGateStorage.cpp */; };
+		9D08F81D1AF378FC00F5CAEA /* CCNativeGateStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08F8131AF378FC00F5CAEA /* CCNativeGateStorage.h */; };
+		9D08F81E1AF378FC00F5CAEA /* CCNativeLevelStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F8141AF378FC00F5CAEA /* CCNativeLevelStorage.cpp */; };
+		9D08F81F1AF378FC00F5CAEA /* CCNativeLevelStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08F8151AF378FC00F5CAEA /* CCNativeLevelStorage.h */; };
+		9D08F8201AF378FC00F5CAEA /* CCNativeMissionStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F8161AF378FC00F5CAEA /* CCNativeMissionStorage.cpp */; };
+		9D08F8211AF378FC00F5CAEA /* CCNativeMissionStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08F8171AF378FC00F5CAEA /* CCNativeMissionStorage.h */; };
+		9D08F8221AF378FC00F5CAEA /* CCNativeScoreStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F8181AF378FC00F5CAEA /* CCNativeScoreStorage.cpp */; };
+		9D08F8231AF378FC00F5CAEA /* CCNativeScoreStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08F8191AF378FC00F5CAEA /* CCNativeScoreStorage.h */; };
+		9D08F8241AF378FC00F5CAEA /* CCNativeWorldStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F81A1AF378FC00F5CAEA /* CCNativeWorldStorage.cpp */; };
+		9D08F8251AF378FC00F5CAEA /* CCNativeWorldStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08F81B1AF378FC00F5CAEA /* CCNativeWorldStorage.h */; };
+		9DEA53AA19B4A4000093D5D9 /* CCLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA536719B4A4000093D5D9 /* CCLevel.cpp */; };
+		9DEA53AB19B4A4000093D5D9 /* CCLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA536819B4A4000093D5D9 /* CCLevel.h */; };
+		9DEA53AE19B4A4000093D5D9 /* CCLevelUpConsts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA536B19B4A4000093D5D9 /* CCLevelUpConsts.cpp */; };
+		9DEA53AF19B4A4000093D5D9 /* CCLevelUpConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA536C19B4A4000093D5D9 /* CCLevelUpConsts.h */; };
+		9DEA53B019B4A4000093D5D9 /* CCLevelUpEventDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA536D19B4A4000093D5D9 /* CCLevelUpEventDispatcher.cpp */; };
+		9DEA53B119B4A4000093D5D9 /* CCLevelUpEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA536E19B4A4000093D5D9 /* CCLevelUpEventDispatcher.h */; };
+		9DEA53B719B4A4000093D5D9 /* CCWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA537419B4A4000093D5D9 /* CCWorld.cpp */; };
+		9DEA53B819B4A4000093D5D9 /* CCWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA537519B4A4000093D5D9 /* CCWorld.h */; };
+		9DEA53BB19B4A4000093D5D9 /* CCChallenge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA537919B4A4000093D5D9 /* CCChallenge.cpp */; };
+		9DEA53BC19B4A4000093D5D9 /* CCChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA537A19B4A4000093D5D9 /* CCChallenge.h */; };
+		9DEA53BD19B4A4000093D5D9 /* CCMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA537B19B4A4000093D5D9 /* CCMission.cpp */; };
+		9DEA53BE19B4A4000093D5D9 /* CCMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA537C19B4A4000093D5D9 /* CCMission.h */; };
+		9DEA53C119B4A4000093D5D9 /* CCRecordMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA537F19B4A4000093D5D9 /* CCRecordMission.cpp */; };
+		9DEA53C219B4A4000093D5D9 /* CCRecordMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538019B4A4000093D5D9 /* CCRecordMission.h */; };
+		9DEA53C319B4A4000093D5D9 /* CCWorldCompletionMission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA538119B4A4000093D5D9 /* CCWorldCompletionMission.cpp */; };
+		9DEA53C419B4A4000093D5D9 /* CCWorldCompletionMission.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538219B4A4000093D5D9 /* CCWorldCompletionMission.h */; };
+		9DEA53C519B4A4000093D5D9 /* Cocos2dxLevelUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538319B4A4000093D5D9 /* Cocos2dxLevelUp.h */; };
+		9DEA53C619B4A4000093D5D9 /* CCGateStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA538519B4A4000093D5D9 /* CCGateStorage.cpp */; };
+		9DEA53C719B4A4000093D5D9 /* CCGateStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538619B4A4000093D5D9 /* CCGateStorage.h */; };
+		9DEA53C819B4A4000093D5D9 /* CCLevelStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA538719B4A4000093D5D9 /* CCLevelStorage.cpp */; };
+		9DEA53C919B4A4000093D5D9 /* CCLevelStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538819B4A4000093D5D9 /* CCLevelStorage.h */; };
+		9DEA53CA19B4A4000093D5D9 /* CCMissionStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA538919B4A4000093D5D9 /* CCMissionStorage.cpp */; };
+		9DEA53CB19B4A4000093D5D9 /* CCMissionStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538A19B4A4000093D5D9 /* CCMissionStorage.h */; };
+		9DEA53CC19B4A4000093D5D9 /* CCScoreStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA538B19B4A4000093D5D9 /* CCScoreStorage.cpp */; };
+		9DEA53CD19B4A4000093D5D9 /* CCScoreStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538C19B4A4000093D5D9 /* CCScoreStorage.h */; };
+		9DEA53CE19B4A4000093D5D9 /* CCWorldStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA538D19B4A4000093D5D9 /* CCWorldStorage.cpp */; };
+		9DEA53CF19B4A4000093D5D9 /* CCWorldStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA538E19B4A4000093D5D9 /* CCWorldStorage.h */; };
+		9DEA53D219B4A4000093D5D9 /* CCGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA539219B4A4000093D5D9 /* CCGate.cpp */; };
+		9DEA53D319B4A4000093D5D9 /* CCGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA539319B4A4000093D5D9 /* CCGate.h */; };
+		9DEA53D419B4A4000093D5D9 /* CCGatesList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA539419B4A4000093D5D9 /* CCGatesList.cpp */; };
+		9DEA53D519B4A4000093D5D9 /* CCGatesList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA539519B4A4000093D5D9 /* CCGatesList.h */; };
+		9DEA53D619B4A4000093D5D9 /* CCGatesListAnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA539619B4A4000093D5D9 /* CCGatesListAnd.cpp */; };
+		9DEA53D719B4A4000093D5D9 /* CCGatesListAnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA539719B4A4000093D5D9 /* CCGatesListAnd.h */; };
+		9DEA53D819B4A4000093D5D9 /* CCGatesListOr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA539819B4A4000093D5D9 /* CCGatesListOr.cpp */; };
+		9DEA53D919B4A4000093D5D9 /* CCGatesListOr.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA539919B4A4000093D5D9 /* CCGatesListOr.h */; };
+		9DEA53DC19B4A4000093D5D9 /* CCRecordGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA539C19B4A4000093D5D9 /* CCRecordGate.cpp */; };
+		9DEA53DD19B4A4000093D5D9 /* CCRecordGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA539D19B4A4000093D5D9 /* CCRecordGate.h */; };
+		9DEA53DE19B4A4000093D5D9 /* CCScheduleGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA539E19B4A4000093D5D9 /* CCScheduleGate.cpp */; };
+		9DEA53DF19B4A4000093D5D9 /* CCScheduleGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA539F19B4A4000093D5D9 /* CCScheduleGate.h */; };
+		9DEA53E019B4A4000093D5D9 /* CCWorldCompletionGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA53A019B4A4000093D5D9 /* CCWorldCompletionGate.cpp */; };
+		9DEA53E119B4A4000093D5D9 /* CCWorldCompletionGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA53A119B4A4000093D5D9 /* CCWorldCompletionGate.h */; };
+		9DEA53E219B4A4000093D5D9 /* CCRangeScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA53A419B4A4000093D5D9 /* CCRangeScore.cpp */; };
+		9DEA53E319B4A4000093D5D9 /* CCRangeScore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA53A519B4A4000093D5D9 /* CCRangeScore.h */; };
+		9DEA53E419B4A4000093D5D9 /* CCScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA53A619B4A4000093D5D9 /* CCScore.cpp */; };
+		9DEA53E519B4A4000093D5D9 /* CCScore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA53A719B4A4000093D5D9 /* CCScore.h */; };
+		9DEA53E619B4A4000093D5D9 /* CCVirtualItemScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA53A819B4A4000093D5D9 /* CCVirtualItemScore.cpp */; };
+		9DEA53E719B4A4000093D5D9 /* CCVirtualItemScore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA53A919B4A4000093D5D9 /* CCVirtualItemScore.h */; };
+		9DEA53EA19B4A4220093D5D9 /* libCocos2dXiOSLevelUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEA53E819B4A4220093D5D9 /* libCocos2dXiOSLevelUp.a */; };
+		9DEA53EB19B4A4220093D5D9 /* libSoomlaiOSLevelUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEA53E919B4A4220093D5D9 /* libSoomlaiOSLevelUp.a */; };
+		C0B3C5F3168C6D0C00161FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B3C5F2168C6D0C00161FAA /* Foundation.framework */; };
+		F8BBDCC21AB2031500FD9403 /* CCLevelUpBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8BBDCC01AB2031500FD9403 /* CCLevelUpBridge.cpp */; };
+		F8BBDCC31AB2031500FD9403 /* CCLevelUpBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BBDCC11AB2031500FD9403 /* CCLevelUpBridge.h */; };
+		F8EE24B519EE691C00BE0286 /* CCSoomlaLevelUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8EE24B319EE691C00BE0286 /* CCSoomlaLevelUp.cpp */; };
+		F8EE24B619EE691C00BE0286 /* CCSoomlaLevelUp.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EE24B419EE691C00BE0286 /* CCSoomlaLevelUp.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		372B70238C9B3154597B563A /* CCSocialStoryGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialStoryGate.h; sourceTree = "<group>"; };
+		372B70F1D32ED8414FDB3DBC /* CCPurchasingMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCPurchasingMission.cpp; sourceTree = "<group>"; };
+		372B716224DEB6EB10FF0F48 /* CCSocialLikeMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialLikeMission.h; sourceTree = "<group>"; };
+		372B735CD0799F9C9DDBB200 /* CCSocialStatusMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialStatusMission.cpp; sourceTree = "<group>"; };
+		372B739ED99386EAD778FD2B /* CCPurchasableGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCPurchasableGate.cpp; sourceTree = "<group>"; };
+		372B743C5CD74E306018328E /* CCBalanceGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCBalanceGate.cpp; sourceTree = "<group>"; };
+		372B74821177B212D38AA3D0 /* CCBalanceMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBalanceMission.h; sourceTree = "<group>"; };
+		372B756F2509F990937EB20B /* CCSocialStoryMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialStoryMission.cpp; sourceTree = "<group>"; };
+		372B75C19F268799FE848157 /* CCSocialActionGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialActionGate.cpp; sourceTree = "<group>"; };
+		372B77436B7769D84F0B3CD2 /* CCSocialActionGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialActionGate.h; sourceTree = "<group>"; };
+		372B77C5ACF82D6350196476 /* CCSocialLikeGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialLikeGate.h; sourceTree = "<group>"; };
+		372B78CE4EB6D10694243467 /* CCPurchasableGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPurchasableGate.h; sourceTree = "<group>"; };
+		372B79BF7773B407F1F63FB2 /* CCSocialStatusMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialStatusMission.h; sourceTree = "<group>"; };
+		372B7A3AB64ECFE8A6C10A6A /* CCBalanceGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBalanceGate.h; sourceTree = "<group>"; };
+		372B7AB02A5B36C1BB49BA93 /* CCSocialUploadGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialUploadGate.h; sourceTree = "<group>"; };
+		372B7BCF47EAE80EAFE23B68 /* CCSocialStatusGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialStatusGate.cpp; sourceTree = "<group>"; };
+		372B7C7398F510F51B863A85 /* CCSocialUploadMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialUploadMission.cpp; sourceTree = "<group>"; };
+		372B7CDABB2F9E2E3DE46AB9 /* CCSocialStatusGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialStatusGate.h; sourceTree = "<group>"; };
+		372B7CE180F0B7F484268DB4 /* CCSocialStoryGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialStoryGate.cpp; sourceTree = "<group>"; };
+		372B7D4DDAFADEFFBE31D122 /* CCSocialLikeGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialLikeGate.cpp; sourceTree = "<group>"; };
+		372B7DA5106FE140EF770AC0 /* CCBalanceMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCBalanceMission.cpp; sourceTree = "<group>"; };
+		372B7DEF0DE8EC9ED94741DD /* CCSocialUploadGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialUploadGate.cpp; sourceTree = "<group>"; };
+		372B7DFDFCD6E9CCED06247E /* CCSocialStoryMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialStoryMission.h; sourceTree = "<group>"; };
+		372B7E35918D021E574D706E /* CCPurchasingMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPurchasingMission.h; sourceTree = "<group>"; };
+		372B7E5FB6CC7C9CB97BE7D8 /* CCSocialLikeMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSocialLikeMission.cpp; sourceTree = "<group>"; };
+		372B7E9C1FB91D77AC6EF93E /* CCSocialUploadMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSocialUploadMission.h; sourceTree = "<group>"; };
+		9D08F8121AF378FC00F5CAEA /* CCNativeGateStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNativeGateStorage.cpp; sourceTree = "<group>"; };
+		9D08F8131AF378FC00F5CAEA /* CCNativeGateStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNativeGateStorage.h; sourceTree = "<group>"; };
+		9D08F8141AF378FC00F5CAEA /* CCNativeLevelStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNativeLevelStorage.cpp; sourceTree = "<group>"; };
+		9D08F8151AF378FC00F5CAEA /* CCNativeLevelStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNativeLevelStorage.h; sourceTree = "<group>"; };
+		9D08F8161AF378FC00F5CAEA /* CCNativeMissionStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNativeMissionStorage.cpp; sourceTree = "<group>"; };
+		9D08F8171AF378FC00F5CAEA /* CCNativeMissionStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNativeMissionStorage.h; sourceTree = "<group>"; };
+		9D08F8181AF378FC00F5CAEA /* CCNativeScoreStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNativeScoreStorage.cpp; sourceTree = "<group>"; };
+		9D08F8191AF378FC00F5CAEA /* CCNativeScoreStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNativeScoreStorage.h; sourceTree = "<group>"; };
+		9D08F81A1AF378FC00F5CAEA /* CCNativeWorldStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNativeWorldStorage.cpp; sourceTree = "<group>"; };
+		9D08F81B1AF378FC00F5CAEA /* CCNativeWorldStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNativeWorldStorage.h; sourceTree = "<group>"; };
+		9D41016D1978D35200907FA8 /* libCocos2dXiOSCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocos2dXiOSCore.a; path = "soomla-native/compilations/ios/libCocos2dXiOSCore.a"; sourceTree = "<group>"; };
+		9D41016E1978D35200907FA8 /* libSoomlaiOSCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSoomlaiOSCore.a; path = "soomla-native/compilations/ios/libSoomlaiOSCore.a"; sourceTree = "<group>"; };
+		9D63D09D19B1B20D0054EA87 /* libCocos2dXiOSCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocos2dXiOSCore.a; path = build/ios/libCocos2dXiOSCore.a; sourceTree = "<group>"; };
+		9D63D09E19B1B20D0054EA87 /* libSoomlaiOSCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSoomlaiOSCore.a; path = build/ios/libSoomlaiOSCore.a; sourceTree = "<group>"; };
+		9D63D23619B1C56E0054EA87 /* libCocos2dXiOSStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocos2dXiOSStore.a; path = build/ios/libCocos2dXiOSStore.a; sourceTree = "<group>"; };
+		9D63D23719B1C56E0054EA87 /* libSoomlaiOSStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSoomlaiOSStore.a; path = build/ios/libSoomlaiOSStore.a; sourceTree = "<group>"; };
+		9DEA536719B4A4000093D5D9 /* CCLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLevel.cpp; sourceTree = "<group>"; };
+		9DEA536819B4A4000093D5D9 /* CCLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLevel.h; sourceTree = "<group>"; };
+		9DEA536B19B4A4000093D5D9 /* CCLevelUpConsts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLevelUpConsts.cpp; sourceTree = "<group>"; };
+		9DEA536C19B4A4000093D5D9 /* CCLevelUpConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLevelUpConsts.h; sourceTree = "<group>"; };
+		9DEA536D19B4A4000093D5D9 /* CCLevelUpEventDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLevelUpEventDispatcher.cpp; sourceTree = "<group>"; };
+		9DEA536E19B4A4000093D5D9 /* CCLevelUpEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLevelUpEventDispatcher.h; sourceTree = "<group>"; };
+		9DEA537419B4A4000093D5D9 /* CCWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWorld.cpp; sourceTree = "<group>"; };
+		9DEA537519B4A4000093D5D9 /* CCWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWorld.h; sourceTree = "<group>"; };
+		9DEA537919B4A4000093D5D9 /* CCChallenge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCChallenge.cpp; sourceTree = "<group>"; };
+		9DEA537A19B4A4000093D5D9 /* CCChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChallenge.h; sourceTree = "<group>"; };
+		9DEA537B19B4A4000093D5D9 /* CCMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCMission.cpp; sourceTree = "<group>"; };
+		9DEA537C19B4A4000093D5D9 /* CCMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMission.h; sourceTree = "<group>"; };
+		9DEA537F19B4A4000093D5D9 /* CCRecordMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRecordMission.cpp; sourceTree = "<group>"; };
+		9DEA538019B4A4000093D5D9 /* CCRecordMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecordMission.h; sourceTree = "<group>"; };
+		9DEA538119B4A4000093D5D9 /* CCWorldCompletionMission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWorldCompletionMission.cpp; sourceTree = "<group>"; };
+		9DEA538219B4A4000093D5D9 /* CCWorldCompletionMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWorldCompletionMission.h; sourceTree = "<group>"; };
+		9DEA538319B4A4000093D5D9 /* Cocos2dxLevelUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dxLevelUp.h; sourceTree = "<group>"; };
+		9DEA538519B4A4000093D5D9 /* CCGateStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCGateStorage.cpp; sourceTree = "<group>"; };
+		9DEA538619B4A4000093D5D9 /* CCGateStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGateStorage.h; sourceTree = "<group>"; };
+		9DEA538719B4A4000093D5D9 /* CCLevelStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLevelStorage.cpp; sourceTree = "<group>"; };
+		9DEA538819B4A4000093D5D9 /* CCLevelStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLevelStorage.h; sourceTree = "<group>"; };
+		9DEA538919B4A4000093D5D9 /* CCMissionStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCMissionStorage.cpp; sourceTree = "<group>"; };
+		9DEA538A19B4A4000093D5D9 /* CCMissionStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMissionStorage.h; sourceTree = "<group>"; };
+		9DEA538B19B4A4000093D5D9 /* CCScoreStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCScoreStorage.cpp; sourceTree = "<group>"; };
+		9DEA538C19B4A4000093D5D9 /* CCScoreStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScoreStorage.h; sourceTree = "<group>"; };
+		9DEA538D19B4A4000093D5D9 /* CCWorldStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWorldStorage.cpp; sourceTree = "<group>"; };
+		9DEA538E19B4A4000093D5D9 /* CCWorldStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWorldStorage.h; sourceTree = "<group>"; };
+		9DEA539219B4A4000093D5D9 /* CCGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCGate.cpp; sourceTree = "<group>"; };
+		9DEA539319B4A4000093D5D9 /* CCGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGate.h; sourceTree = "<group>"; };
+		9DEA539419B4A4000093D5D9 /* CCGatesList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCGatesList.cpp; sourceTree = "<group>"; };
+		9DEA539519B4A4000093D5D9 /* CCGatesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGatesList.h; sourceTree = "<group>"; };
+		9DEA539619B4A4000093D5D9 /* CCGatesListAnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCGatesListAnd.cpp; sourceTree = "<group>"; };
+		9DEA539719B4A4000093D5D9 /* CCGatesListAnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGatesListAnd.h; sourceTree = "<group>"; };
+		9DEA539819B4A4000093D5D9 /* CCGatesListOr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCGatesListOr.cpp; sourceTree = "<group>"; };
+		9DEA539919B4A4000093D5D9 /* CCGatesListOr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGatesListOr.h; sourceTree = "<group>"; };
+		9DEA539C19B4A4000093D5D9 /* CCRecordGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRecordGate.cpp; sourceTree = "<group>"; };
+		9DEA539D19B4A4000093D5D9 /* CCRecordGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecordGate.h; sourceTree = "<group>"; };
+		9DEA539E19B4A4000093D5D9 /* CCScheduleGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCScheduleGate.cpp; sourceTree = "<group>"; };
+		9DEA539F19B4A4000093D5D9 /* CCScheduleGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScheduleGate.h; sourceTree = "<group>"; };
+		9DEA53A019B4A4000093D5D9 /* CCWorldCompletionGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWorldCompletionGate.cpp; sourceTree = "<group>"; };
+		9DEA53A119B4A4000093D5D9 /* CCWorldCompletionGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWorldCompletionGate.h; sourceTree = "<group>"; };
+		9DEA53A419B4A4000093D5D9 /* CCRangeScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRangeScore.cpp; sourceTree = "<group>"; };
+		9DEA53A519B4A4000093D5D9 /* CCRangeScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRangeScore.h; sourceTree = "<group>"; };
+		9DEA53A619B4A4000093D5D9 /* CCScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCScore.cpp; sourceTree = "<group>"; };
+		9DEA53A719B4A4000093D5D9 /* CCScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScore.h; sourceTree = "<group>"; };
+		9DEA53A819B4A4000093D5D9 /* CCVirtualItemScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCVirtualItemScore.cpp; sourceTree = "<group>"; };
+		9DEA53A919B4A4000093D5D9 /* CCVirtualItemScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVirtualItemScore.h; sourceTree = "<group>"; };
+		9DEA53E819B4A4220093D5D9 /* libCocos2dXiOSLevelUp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocos2dXiOSLevelUp.a; path = build/ios/libCocos2dXiOSLevelUp.a; sourceTree = "<group>"; };
+		9DEA53E919B4A4220093D5D9 /* libSoomlaiOSLevelUp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSoomlaiOSLevelUp.a; path = build/ios/libSoomlaiOSLevelUp.a; sourceTree = "<group>"; };
+		C0B3C5EF168C6D0C00161FAA /* libCocos2dXLevelUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocos2dXLevelUp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B3C5F2168C6D0C00161FAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8BBDCC01AB2031500FD9403 /* CCLevelUpBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLevelUpBridge.cpp; sourceTree = "<group>"; };
+		F8BBDCC11AB2031500FD9403 /* CCLevelUpBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLevelUpBridge.h; sourceTree = "<group>"; };
+		F8EE24B319EE691C00BE0286 /* CCSoomlaLevelUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSoomlaLevelUp.cpp; sourceTree = "<group>"; };
+		F8EE24B419EE691C00BE0286 /* CCSoomlaLevelUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSoomlaLevelUp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0B3C5EC168C6D0C00161FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA53EA19B4A4220093D5D9 /* libCocos2dXiOSLevelUp.a in Frameworks */,
+				9DEA53EB19B4A4220093D5D9 /* libSoomlaiOSLevelUp.a in Frameworks */,
+				C0B3C5F3168C6D0C00161FAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372B70A8A552472454551507 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				372B74821177B212D38AA3D0 /* CCBalanceMission.h */,
+				372B7DA5106FE140EF770AC0 /* CCBalanceMission.cpp */,
+				372B7E35918D021E574D706E /* CCPurchasingMission.h */,
+				372B70F1D32ED8414FDB3DBC /* CCPurchasingMission.cpp */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		372B7B32E7EF3A3BDBB80F6B /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				372B77C5ACF82D6350196476 /* CCSocialLikeGate.h */,
+				372B70238C9B3154597B563A /* CCSocialStoryGate.h */,
+				372B77436B7769D84F0B3CD2 /* CCSocialActionGate.h */,
+				372B7D4DDAFADEFFBE31D122 /* CCSocialLikeGate.cpp */,
+				372B7CDABB2F9E2E3DE46AB9 /* CCSocialStatusGate.h */,
+				372B7AB02A5B36C1BB49BA93 /* CCSocialUploadGate.h */,
+				372B7CE180F0B7F484268DB4 /* CCSocialStoryGate.cpp */,
+				372B75C19F268799FE848157 /* CCSocialActionGate.cpp */,
+				372B7BCF47EAE80EAFE23B68 /* CCSocialStatusGate.cpp */,
+				372B7DEF0DE8EC9ED94741DD /* CCSocialUploadGate.cpp */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		372B7C9BE72570E9824E105C /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				372B716224DEB6EB10FF0F48 /* CCSocialLikeMission.h */,
+				372B7DFDFCD6E9CCED06247E /* CCSocialStoryMission.h */,
+				372B7E5FB6CC7C9CB97BE7D8 /* CCSocialLikeMission.cpp */,
+				372B79BF7773B407F1F63FB2 /* CCSocialStatusMission.h */,
+				372B7E9C1FB91D77AC6EF93E /* CCSocialUploadMission.h */,
+				372B756F2509F990937EB20B /* CCSocialStoryMission.cpp */,
+				372B735CD0799F9C9DDBB200 /* CCSocialStatusMission.cpp */,
+				372B7C7398F510F51B863A85 /* CCSocialUploadMission.cpp */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		372B7EBB777DAE5EAB7AA1BD /* store */ = {
+			isa = PBXGroup;
+			children = (
+				372B7A3AB64ECFE8A6C10A6A /* CCBalanceGate.h */,
+				372B743C5CD74E306018328E /* CCBalanceGate.cpp */,
+				372B78CE4EB6D10694243467 /* CCPurchasableGate.h */,
+				372B739ED99386EAD778FD2B /* CCPurchasableGate.cpp */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		9D08F8111AF378FC00F5CAEA /* NativeImpl */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F8121AF378FC00F5CAEA /* CCNativeGateStorage.cpp */,
+				9D08F8131AF378FC00F5CAEA /* CCNativeGateStorage.h */,
+				9D08F8141AF378FC00F5CAEA /* CCNativeLevelStorage.cpp */,
+				9D08F8151AF378FC00F5CAEA /* CCNativeLevelStorage.h */,
+				9D08F8161AF378FC00F5CAEA /* CCNativeMissionStorage.cpp */,
+				9D08F8171AF378FC00F5CAEA /* CCNativeMissionStorage.h */,
+				9D08F8181AF378FC00F5CAEA /* CCNativeScoreStorage.cpp */,
+				9D08F8191AF378FC00F5CAEA /* CCNativeScoreStorage.h */,
+				9D08F81A1AF378FC00F5CAEA /* CCNativeWorldStorage.cpp */,
+				9D08F81B1AF378FC00F5CAEA /* CCNativeWorldStorage.h */,
+			);
+			path = NativeImpl;
+			sourceTree = "<group>";
+		};
+		9DEA536619B4A4000093D5D9 /* Soomla */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F8111AF378FC00F5CAEA /* NativeImpl */,
+				F8BBDCC01AB2031500FD9403 /* CCLevelUpBridge.cpp */,
+				F8BBDCC11AB2031500FD9403 /* CCLevelUpBridge.h */,
+				F8EE24B319EE691C00BE0286 /* CCSoomlaLevelUp.cpp */,
+				F8EE24B419EE691C00BE0286 /* CCSoomlaLevelUp.h */,
+				9DEA536719B4A4000093D5D9 /* CCLevel.cpp */,
+				9DEA536819B4A4000093D5D9 /* CCLevel.h */,
+				9DEA536B19B4A4000093D5D9 /* CCLevelUpConsts.cpp */,
+				9DEA536C19B4A4000093D5D9 /* CCLevelUpConsts.h */,
+				9DEA536D19B4A4000093D5D9 /* CCLevelUpEventDispatcher.cpp */,
+				9DEA536E19B4A4000093D5D9 /* CCLevelUpEventDispatcher.h */,
+				9DEA537419B4A4000093D5D9 /* CCWorld.cpp */,
+				9DEA537519B4A4000093D5D9 /* CCWorld.h */,
+				9DEA537619B4A4000093D5D9 /* challenges */,
+				9DEA538319B4A4000093D5D9 /* Cocos2dxLevelUp.h */,
+				9DEA538419B4A4000093D5D9 /* data */,
+				9DEA538F19B4A4000093D5D9 /* gates */,
+				9DEA53A219B4A4000093D5D9 /* jsb */,
+				9DEA53A319B4A4000093D5D9 /* scoring */,
+			);
+			path = Soomla;
+			sourceTree = "<group>";
+		};
+		9DEA537619B4A4000093D5D9 /* challenges */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA537919B4A4000093D5D9 /* CCChallenge.cpp */,
+				9DEA537A19B4A4000093D5D9 /* CCChallenge.h */,
+				9DEA537B19B4A4000093D5D9 /* CCMission.cpp */,
+				9DEA537C19B4A4000093D5D9 /* CCMission.h */,
+				9DEA537F19B4A4000093D5D9 /* CCRecordMission.cpp */,
+				9DEA538019B4A4000093D5D9 /* CCRecordMission.h */,
+				9DEA538119B4A4000093D5D9 /* CCWorldCompletionMission.cpp */,
+				9DEA538219B4A4000093D5D9 /* CCWorldCompletionMission.h */,
+				372B7C9BE72570E9824E105C /* profile */,
+				372B70A8A552472454551507 /* store */,
+			);
+			path = challenges;
+			sourceTree = "<group>";
+		};
+		9DEA538419B4A4000093D5D9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA538619B4A4000093D5D9 /* CCGateStorage.h */,
+				9DEA538519B4A4000093D5D9 /* CCGateStorage.cpp */,
+				9DEA538719B4A4000093D5D9 /* CCLevelStorage.cpp */,
+				9DEA538819B4A4000093D5D9 /* CCLevelStorage.h */,
+				9DEA538919B4A4000093D5D9 /* CCMissionStorage.cpp */,
+				9DEA538A19B4A4000093D5D9 /* CCMissionStorage.h */,
+				9DEA538B19B4A4000093D5D9 /* CCScoreStorage.cpp */,
+				9DEA538C19B4A4000093D5D9 /* CCScoreStorage.h */,
+				9DEA538D19B4A4000093D5D9 /* CCWorldStorage.cpp */,
+				9DEA538E19B4A4000093D5D9 /* CCWorldStorage.h */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9DEA538F19B4A4000093D5D9 /* gates */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA539219B4A4000093D5D9 /* CCGate.cpp */,
+				9DEA539319B4A4000093D5D9 /* CCGate.h */,
+				9DEA539419B4A4000093D5D9 /* CCGatesList.cpp */,
+				9DEA539519B4A4000093D5D9 /* CCGatesList.h */,
+				9DEA539619B4A4000093D5D9 /* CCGatesListAnd.cpp */,
+				9DEA539719B4A4000093D5D9 /* CCGatesListAnd.h */,
+				9DEA539819B4A4000093D5D9 /* CCGatesListOr.cpp */,
+				9DEA539919B4A4000093D5D9 /* CCGatesListOr.h */,
+				9DEA539C19B4A4000093D5D9 /* CCRecordGate.cpp */,
+				9DEA539D19B4A4000093D5D9 /* CCRecordGate.h */,
+				9DEA539E19B4A4000093D5D9 /* CCScheduleGate.cpp */,
+				9DEA539F19B4A4000093D5D9 /* CCScheduleGate.h */,
+				9DEA53A019B4A4000093D5D9 /* CCWorldCompletionGate.cpp */,
+				9DEA53A119B4A4000093D5D9 /* CCWorldCompletionGate.h */,
+				372B7B32E7EF3A3BDBB80F6B /* profile */,
+				372B7EBB777DAE5EAB7AA1BD /* store */,
+			);
+			path = gates;
+			sourceTree = "<group>";
+		};
+		9DEA53A219B4A4000093D5D9 /* jsb */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jsb;
+			sourceTree = "<group>";
+		};
+		9DEA53A319B4A4000093D5D9 /* scoring */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA53A419B4A4000093D5D9 /* CCRangeScore.cpp */,
+				9DEA53A519B4A4000093D5D9 /* CCRangeScore.h */,
+				9DEA53A619B4A4000093D5D9 /* CCScore.cpp */,
+				9DEA53A719B4A4000093D5D9 /* CCScore.h */,
+				9DEA53A819B4A4000093D5D9 /* CCVirtualItemScore.cpp */,
+				9DEA53A919B4A4000093D5D9 /* CCVirtualItemScore.h */,
+			);
+			path = scoring;
+			sourceTree = "<group>";
+		};
+		C0B3C5E4168C6D0C00161FAA = {
+			isa = PBXGroup;
+			children = (
+				9DEA536619B4A4000093D5D9 /* Soomla */,
+				C0B3C5F1168C6D0C00161FAA /* Frameworks */,
+				C0B3C5F0168C6D0C00161FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0B3C5F0168C6D0C00161FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3C5EF168C6D0C00161FAA /* libCocos2dXLevelUp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B3C5F1168C6D0C00161FAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA53E819B4A4220093D5D9 /* libCocos2dXiOSLevelUp.a */,
+				9DEA53E919B4A4220093D5D9 /* libSoomlaiOSLevelUp.a */,
+				9D63D23619B1C56E0054EA87 /* libCocos2dXiOSStore.a */,
+				9D63D23719B1C56E0054EA87 /* libSoomlaiOSStore.a */,
+				9D63D09D19B1B20D0054EA87 /* libCocos2dXiOSCore.a */,
+				9D63D09E19B1B20D0054EA87 /* libSoomlaiOSCore.a */,
+				9D41016D1978D35200907FA8 /* libCocos2dXiOSCore.a */,
+				9D41016E1978D35200907FA8 /* libSoomlaiOSCore.a */,
+				C0B3C5F2168C6D0C00161FAA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D64AAD0190653C40091D664 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA53DD19B4A4000093D5D9 /* CCRecordGate.h in Headers */,
+				9DEA53E719B4A4000093D5D9 /* CCVirtualItemScore.h in Headers */,
+				9DEA53DF19B4A4000093D5D9 /* CCScheduleGate.h in Headers */,
+				9DEA53E319B4A4000093D5D9 /* CCRangeScore.h in Headers */,
+				9DEA53CB19B4A4000093D5D9 /* CCMissionStorage.h in Headers */,
+				9DEA53C719B4A4000093D5D9 /* CCGateStorage.h in Headers */,
+				9D08F81D1AF378FC00F5CAEA /* CCNativeGateStorage.h in Headers */,
+				9DEA53B119B4A4000093D5D9 /* CCLevelUpEventDispatcher.h in Headers */,
+				9DEA53AF19B4A4000093D5D9 /* CCLevelUpConsts.h in Headers */,
+				9DEA53B819B4A4000093D5D9 /* CCWorld.h in Headers */,
+				9DEA53D319B4A4000093D5D9 /* CCGate.h in Headers */,
+				9DEA53E519B4A4000093D5D9 /* CCScore.h in Headers */,
+				9DEA53C219B4A4000093D5D9 /* CCRecordMission.h in Headers */,
+				9DEA53D519B4A4000093D5D9 /* CCGatesList.h in Headers */,
+				9DEA53BC19B4A4000093D5D9 /* CCChallenge.h in Headers */,
+				9DEA53CF19B4A4000093D5D9 /* CCWorldStorage.h in Headers */,
+				F8EE24B619EE691C00BE0286 /* CCSoomlaLevelUp.h in Headers */,
+				9D08F8231AF378FC00F5CAEA /* CCNativeScoreStorage.h in Headers */,
+				9D08F8251AF378FC00F5CAEA /* CCNativeWorldStorage.h in Headers */,
+				9DEA53C919B4A4000093D5D9 /* CCLevelStorage.h in Headers */,
+				9DEA53CD19B4A4000093D5D9 /* CCScoreStorage.h in Headers */,
+				9D08F81F1AF378FC00F5CAEA /* CCNativeLevelStorage.h in Headers */,
+				9DEA53BE19B4A4000093D5D9 /* CCMission.h in Headers */,
+				9DEA53C419B4A4000093D5D9 /* CCWorldCompletionMission.h in Headers */,
+				9DEA53AB19B4A4000093D5D9 /* CCLevel.h in Headers */,
+				9DEA53C519B4A4000093D5D9 /* Cocos2dxLevelUp.h in Headers */,
+				9DEA53D719B4A4000093D5D9 /* CCGatesListAnd.h in Headers */,
+				9DEA53E119B4A4000093D5D9 /* CCWorldCompletionGate.h in Headers */,
+				9DEA53D919B4A4000093D5D9 /* CCGatesListOr.h in Headers */,
+				372B7F216683817D30326994 /* CCSocialLikeMission.h in Headers */,
+				372B7B0240BF95504E4A8793 /* CCSocialStoryMission.h in Headers */,
+				372B7E7FF1EA7B51DF41CC35 /* CCSocialStatusMission.h in Headers */,
+				372B7D735E996F6C94B5D554 /* CCSocialUploadMission.h in Headers */,
+				F8BBDCC31AB2031500FD9403 /* CCLevelUpBridge.h in Headers */,
+				372B7F348D696FC00042CADB /* CCBalanceMission.h in Headers */,
+				372B70D5C03EC8784B9139CC /* CCPurchasingMission.h in Headers */,
+				372B7B60FE6AE74CC9E30DC6 /* CCSocialLikeGate.h in Headers */,
+				372B7B831F14F6D0FDE57527 /* CCSocialStoryGate.h in Headers */,
+				372B795965FA7CE65C26609B /* CCSocialActionGate.h in Headers */,
+				372B73BB45E64D2117B87161 /* CCSocialStatusGate.h in Headers */,
+				372B7CDA8325979AC6584AF2 /* CCSocialUploadGate.h in Headers */,
+				372B74BF6730584276D1F199 /* CCBalanceGate.h in Headers */,
+				9D08F8211AF378FC00F5CAEA /* CCNativeMissionStorage.h in Headers */,
+				372B798115EC07991E418260 /* CCPurchasableGate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C0B3C5EE168C6D0C00161FAA /* Cocos2dXLevelUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B3C5FD168C6D0C00161FAA /* Build configuration list for PBXNativeTarget "Cocos2dXLevelUp" */;
+			buildPhases = (
+				C0B3C5EB168C6D0C00161FAA /* Sources */,
+				C0B3C5EC168C6D0C00161FAA /* Frameworks */,
+				9D64AAD0190653C40091D664 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cocos2dXLevelUp;
+			productName = SoomlaIOSStore;
+			productReference = C0B3C5EF168C6D0C00161FAA /* libCocos2dXLevelUp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B3C5E6168C6D0C00161FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SOOMLA;
+			};
+			buildConfigurationList = C0B3C5E9168C6D0C00161FAA /* Build configuration list for PBXProject "Cocos2dXLevelUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0B3C5E4168C6D0C00161FAA;
+			productRefGroup = C0B3C5F0168C6D0C00161FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B3C5EE168C6D0C00161FAA /* Cocos2dXLevelUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B3C5EB168C6D0C00161FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA53E219B4A4000093D5D9 /* CCRangeScore.cpp in Sources */,
+				9DEA53AE19B4A4000093D5D9 /* CCLevelUpConsts.cpp in Sources */,
+				F8EE24B519EE691C00BE0286 /* CCSoomlaLevelUp.cpp in Sources */,
+				9DEA53B019B4A4000093D5D9 /* CCLevelUpEventDispatcher.cpp in Sources */,
+				9D08F81C1AF378FC00F5CAEA /* CCNativeGateStorage.cpp in Sources */,
+				9DEA53CA19B4A4000093D5D9 /* CCMissionStorage.cpp in Sources */,
+				9D08F8241AF378FC00F5CAEA /* CCNativeWorldStorage.cpp in Sources */,
+				9DEA53DE19B4A4000093D5D9 /* CCScheduleGate.cpp in Sources */,
+				9DEA53C619B4A4000093D5D9 /* CCGateStorage.cpp in Sources */,
+				9DEA53B719B4A4000093D5D9 /* CCWorld.cpp in Sources */,
+				F8BBDCC21AB2031500FD9403 /* CCLevelUpBridge.cpp in Sources */,
+				9DEA53DC19B4A4000093D5D9 /* CCRecordGate.cpp in Sources */,
+				9DEA53D819B4A4000093D5D9 /* CCGatesListOr.cpp in Sources */,
+				9DEA53CE19B4A4000093D5D9 /* CCWorldStorage.cpp in Sources */,
+				9D08F8221AF378FC00F5CAEA /* CCNativeScoreStorage.cpp in Sources */,
+				9DEA53C319B4A4000093D5D9 /* CCWorldCompletionMission.cpp in Sources */,
+				9DEA53BD19B4A4000093D5D9 /* CCMission.cpp in Sources */,
+				9DEA53D219B4A4000093D5D9 /* CCGate.cpp in Sources */,
+				9DEA53C819B4A4000093D5D9 /* CCLevelStorage.cpp in Sources */,
+				9DEA53AA19B4A4000093D5D9 /* CCLevel.cpp in Sources */,
+				9DEA53E019B4A4000093D5D9 /* CCWorldCompletionGate.cpp in Sources */,
+				9DEA53C119B4A4000093D5D9 /* CCRecordMission.cpp in Sources */,
+				9DEA53D419B4A4000093D5D9 /* CCGatesList.cpp in Sources */,
+				9DEA53E419B4A4000093D5D9 /* CCScore.cpp in Sources */,
+				9DEA53D619B4A4000093D5D9 /* CCGatesListAnd.cpp in Sources */,
+				9DEA53CC19B4A4000093D5D9 /* CCScoreStorage.cpp in Sources */,
+				9DEA53BB19B4A4000093D5D9 /* CCChallenge.cpp in Sources */,
+				9DEA53E619B4A4000093D5D9 /* CCVirtualItemScore.cpp in Sources */,
+				9D08F8201AF378FC00F5CAEA /* CCNativeMissionStorage.cpp in Sources */,
+				372B7A676977FAB0FEB04C67 /* CCSocialLikeMission.cpp in Sources */,
+				372B7DF8DF8CA41349499064 /* CCSocialStoryMission.cpp in Sources */,
+				372B79CA0A73CBFC386A1900 /* CCSocialStatusMission.cpp in Sources */,
+				372B72CB1538BBC530C36F4D /* CCSocialUploadMission.cpp in Sources */,
+				372B7CEB0F17B97FA7BC37AC /* CCBalanceMission.cpp in Sources */,
+				372B76745739EBA656A47F88 /* CCPurchasingMission.cpp in Sources */,
+				372B784873BC058BC0BEEEE5 /* CCSocialLikeGate.cpp in Sources */,
+				372B7AC96F79EE3C972140E2 /* CCSocialStoryGate.cpp in Sources */,
+				372B717C48451A25468FCC27 /* CCSocialActionGate.cpp in Sources */,
+				9D08F81E1AF378FC00F5CAEA /* CCNativeLevelStorage.cpp in Sources */,
+				372B73F9C4BADABA2025B747 /* CCSocialStatusGate.cpp in Sources */,
+				372B712466992E0FBE6FD5C9 /* CCSocialUploadGate.cpp in Sources */,
+				372B7D1F8201EA20ADB68ABE /* CCBalanceGate.cpp in Sources */,
+				372B765D661456DBBF0C3D9C /* CCPurchasableGate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0B3C5FB168C6D0C00161FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0B3C5FC168C6D0C00161FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0B3C5FE168C6D0C00161FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SoomlaIOSStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOS2D_DEBUG=1",
+					CC_TARGET_OS_IPHONE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../cocos",
+					"$(SRCROOT)/../../cocos/base",
+					"$(SRCROOT)/../../cocos/2d",
+					"$(SRCROOT)/../../cocos/platform/ios",
+					"$(SRCROOT)/../../cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../../external/jansson",
+					"$(SRCROOT)/build/ios/headers/**",
+					"$(SRCROOT)/../soomla-cocos2dx-core/build/ios/headers/**",
+					"$(SRCROOT)/../soomla-cocos2dx-core/Soomla/**",
+					"$(SRCROOT)/../cocos2dx-store/build/ios/headers/**",
+					"$(SRCROOT)/../cocos2dx-store/Soomla/**",
+					"$(SRCROOT)/../cocos2dx-profile/build/ios/headers/**",
+					"$(SRCROOT)/../cocos2dx-profile/Soomla/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/build/ios";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = headers/private;
+				PRODUCT_NAME = Cocos2dXLevelUp;
+				PUBLIC_HEADERS_FOLDER_PATH = headers/public;
+				SKIP_INSTALL = YES;
+				SYMROOT = out;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C0B3C5FF168C6D0C00161FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SoomlaIOSStore.dst;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = CC_TARGET_OS_IPHONE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../cocos",
+					"$(SRCROOT)/../../cocos/base",
+					"$(SRCROOT)/../../cocos/2d",
+					"$(SRCROOT)/../../cocos/platform/ios",
+					"$(SRCROOT)/../../cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../../external/jansson",
+					"$(SRCROOT)/build/ios/headers/**",
+					"$(SRCROOT)/../soomla-cocos2dx-core/build/ios/headers/**",
+					"$(SRCROOT)/../soomla-cocos2dx-core/Soomla/**",
+					"$(SRCROOT)/../cocos2dx-store/build/ios/headers/**",
+					"$(SRCROOT)/../cocos2dx-store/Soomla/**",
+					"$(SRCROOT)/../cocos2dx-profile/build/ios/headers/**",
+					"$(SRCROOT)/../cocos2dx-profile/Soomla/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/build/ios";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = headers/private;
+				PRODUCT_NAME = Cocos2dXLevelUp;
+				PUBLIC_HEADERS_FOLDER_PATH = headers/public;
+				SKIP_INSTALL = YES;
+				SYMROOT = out;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0B3C5E9168C6D0C00161FAA /* Build configuration list for PBXProject "Cocos2dXLevelUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B3C5FB168C6D0C00161FAA /* Debug */,
+				C0B3C5FC168C6D0C00161FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B3C5FD168C6D0C00161FAA /* Build configuration list for PBXNativeTarget "Cocos2dXLevelUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B3C5FE168C6D0C00161FAA /* Debug */,
+				C0B3C5FF168C6D0C00161FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B3C5E6168C6D0C00161FAA /* Project object */;
+}

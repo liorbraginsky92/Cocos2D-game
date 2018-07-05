@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+$DIR/android-levelup/build_all
+$DIR/ios-levelup/build_all
